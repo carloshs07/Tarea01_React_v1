@@ -1,0 +1,31 @@
+.header {
+  background-image: url('./assets/banner_bg.png'); /* Adjust path if needed */
+  background-size: contain;
+  border-radius: 20px;
+  width: auto; /* Use the full width of the viewport */
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+  color: white;
+  text-shadow:4px 4px 4px rgba(226, 194, 9, 0.801); 
+    
+}
+
+@media (max-width: 768px) {
+    .header {
+      height: 200px; /* Reduce height for smaller screens */
+      background-size: cover;
+    }
+  
+    .header-content {
+      padding: 15px;
+      font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+  }

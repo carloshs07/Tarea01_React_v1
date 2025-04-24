@@ -1,0 +1,42 @@
+/* Footer.css */
+.footer {
+    border-radius: 20px;
+    background-image: url('./assets/footer_bg_2.jpg'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(56, 221, 14);
+    font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+    color: rgb(12, 12, 12);
+    text-shadow:4px 4px 4px rgba(235, 233, 225, 0.801); 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
