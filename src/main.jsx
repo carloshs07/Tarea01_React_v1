@@ -7,6 +7,5 @@ import Heroes from './Heroes.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Heroes />
   </StrictMode>,
 )
